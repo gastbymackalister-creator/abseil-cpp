@@ -102,6 +102,4 @@ for std in ${STD}; do
             --test_output=errors \
             --test_tag_filters=-benchmark \
             ${BAZEL_EXTRA_ARGS:-}"
-    done
-  done
-done
+    
